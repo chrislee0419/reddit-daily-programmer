@@ -61,7 +61,7 @@ def build(word):
 def print_res(pairs):
 	names = []
 	s = ""
-	for pair in res:
+	for pair in pairs:
 		names.append(pair[1])
 		s += pair[0].capitalize()
 	print s,
