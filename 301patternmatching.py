@@ -17,12 +17,11 @@ def create_pattern(string):
 			pattern += str(len(char_list) - 1)
 	return pattern
 
-dic = None
-with open("301dictionary.txt") as f:
-	dic = [line.rstrip("\n") for line in f]
 pattern = create_pattern(raw_input())
-for word in dic:
-	for i in range(len(word) - len(pattern) + 1):
-		if (pattern == create_pattern(word[i:i + len(pattern)])):
-			print word
-			break
+with open("301dictionary.txt") as f:
+	for word in f:
+		word = word.strip("\n")
+		for i in range(len(word) - len(pattern) + 1):
+			if (pattern == create_pattern(word[i:i + len(pattern)])):
+				print word
+				break
