@@ -1,4 +1,4 @@
-# 01/02/2017 - Challenge 298 - Too many Parentheses
+# 01/02/2017 - Challenge 298 - Too many Parentheses (with bonus)
 # https://www.reddit.com/r/dailyprogrammer/comments/5llkbj/2017012_challenge_298_easy_too_many_parentheses/
 #
 
