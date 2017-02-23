@@ -18,7 +18,7 @@ def create_pattern(string):
 	return pattern
 
 pattern = create_pattern(raw_input())
-with open("301dictionary.txt") as f:
+with open("../enable1.txt") as f:
 	for word in f:
 		word = word.strip("\n")
 		for i in range(len(word) - len(pattern) + 1):

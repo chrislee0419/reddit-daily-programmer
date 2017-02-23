@@ -3,6 +3,7 @@
 -- 
 -- Usage:
 -- (height_of_box) (width_of_box) (height_of_particle) (width_of_particle) (speed)
+--
 
 local vert, hori = 0, 0
 local dy, dx = tonumber(arg[1]) - tonumber(arg[3]), tonumber(arg[2]) - tonumber(arg[4])
