@@ -1,6 +1,8 @@
 -- 12/05/2016 - Challenge 294 - Rack Management 1 (with bonuses)
 -- https://www.reddit.com/r/dailyprogrammer/comments/5go843/20161205_challenge_294_easy_rack_management_1/
 -- 
+-- Usage: (letters_on_rack) (test_word)
+--
 
 points = {
 	a = 1, b = 3, c = 3, d = 2, e = 1, f = 4, g = 2,
